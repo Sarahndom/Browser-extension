@@ -48,7 +48,7 @@ See hover and focus states for all interactive elements
 
 Solution URL: Add your Frontend Mentor solution link here
 
-Live Site URL: Add your live hosted site link here
+Live Site URL: https://sarahndom.github.io/Browser-extension/
 
 🧠 My process
 🛠 Built with
