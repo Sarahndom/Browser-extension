@@ -46,9 +46,9 @@ See hover and focus states for all interactive elements
 
 🔗 Links
 
-Solution URL: Add your Frontend Mentor solution link here
+Solution URL:  https://www.frontendmentor.io/solutions/browser-extensions-manager-xQ1JfKexQ9
 
-Live Site URL: https://sarahndom.github.io/Browser-extension/
+Live Site URL: https://browser-manager-extension.netlify.app/
 
 🧠 My process
 🛠 Built with
