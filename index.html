@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./index.css">
+
+  <title>Browser extensions manager</title>
+
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      padding-top: 5rem;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="extension-page">
+
+    <header class="header-extensions">
+
+      <div class="header-image-extensions">
+
+        <img src="./assets/images/logo.svg" id="logo-svg" alt="logo">
+
+        <img src="./assets/images/icon-sun.svg" id="sun-icon" alt="sun-svg">
+
+      </div>
+
+      <div class="header-ext-btn">
+
+        <h1>Extensions List</h1>
+
+        <div class="filter-buttons">
+
+          <button> All </button>
+
+          <button> Active </button>
+
+          <button> Inactive </button>
+
+        </div>
+
+      </div>
+
+    </header>
+
+
+    <div class="extension-grid">
+
+      <div class="extension-card">
+
+        <img src="./assets/images/logo-console-plus.svg" id="img-logo" alt="console-plus-svg">
+
+        <div class="extension-text">
+
+          <h3> DevLens</h3>
+
+          <p> Quickly inspect page layouts and visualize element boundaries. </p>
+
+        </div>
+
+        <div class="remove-button">
+
+          <button class="remove-btn">
+            Remove
+          </button>
+
+          <label class="switch">
+            <input type="checkbox" checked>
+            <span class="slider-round"></span>
+          </label>
+
+        </div>
+
+      </div>
+
+      <div class="extension-card">
+
+        <img src="./assets/images/logo-style-spy.svg" id="img-logo" alt="style spy">
+
+        <div class="extension-text">
+
+          <h3> StyleSpy </h3>
+
+          <p> Instantly analyze and copy CSS from any webpage element. </p>
+
+        </div>
+
+        <div class="remove-button">
+
+          <button class="remove-btn">
+            Remove
+          </button>
+
+          <label class="switch">
+            <input type="checkbox" checked>
+            <span class="slider-round"></span>
+          </label>
+
+        </div>
+
+      </div>
+
+      <div class="extension-card">
+
+        <img src="./assets/images/logo-speed-boost.svg" id="img-logo" alt="logo speed boost">
+
+        <div class="extension-text">
+
+          <h3> SpeedBoost</h3>
+
+          <p> Optimizes browser resource usage to accelerate page loading. </p>
+
+        </div>
+
+        <div class="remove-button">
+
+          <button class="remove-btn">
+            Remove
+          </button>
+
+          <label class="switch">
+            <input type="checkbox" checked>
+            <span class="slider-round"></span>
+          </label>
+
+        </div>
+
+      </div>
+
+      <div class="extension-card">
+
+        <img src="./assets/images/logo-json-wizard.svg" id="img-logo" alt="JSONWizard">
+
+        <div class="extension-text">
+
+          <h3> JSONWizard </h3>
+
+          <p>Formats, validates, and prettifies JSON responses in-browser.</p>
+
+        </div>
+
+        <div class="remove-button">
+
+          <button class="remove-btn">
+            Remove
+          </button>
+
+          <label class="switch">
+            <input type="checkbox" checked>
+            <span class="slider-round"></span>
+          </label>
+
+        </div>
+
+      </div>
+
+      <div class="extension-card">
+
+        <img src="./assets/images/logo-tab-master-pro.svg" id="img-logo" alt="logo-tab-master-pro">
+
+        <div class="extension-text">
+
+          <h3> TabMaster Pro </h3>
+
+          <p>Organizes browser tabs into groups and sessions. </p>
+
+        </div>
+        <div class="remove-button">
+
+          <button class="remove-btn">
+            Remove
+          </button>
+
+          <label class="switch">
+            <input type="checkbox" checked>
+            <span class="slider-round"></span>
+          </label>
+
+        </div>
+
+      </div>
+
+      <div class="extension-card">
+
+        <img src="./assets/images/logo-viewport-buddy.svg" id="img-logo" alt="logo-viewport-buddy">
+
+        <div class="extension-text">
+
+          <h3>ViewportBuddy</h3>
+
+          <p> Simulates various screen resolutions directly within the browser. </p>
+
+        </div>
+
+        <div class="remove-button">
+
+          <button class="remove-btn">
+            Remove
+          </button>
+
+          <label class="switch">
+            <input type="checkbox" checked>
+            <span class="slider-round"></span>
+          </label>
+
+        </div>
+
+      </div>
+
+      <div class="extension-card">
+
+        <img src="./assets/images/logo-markup-notes.svg" id="img-logo" alt="logo-markup-notes">
+
+        <div class="extension-text">
+
+          <h3> Markup Notes </h3>
+
+          <p>Enables annotation and notes directly onto webpages for collaborative debugging.</p>
+
+        </div>
+
+        <div class="remove-button">
+
+          <button class="remove-btn">
+            Remove
+          </button>
+
+          <label class="switch">
+            <input type="checkbox" checked>
+            <span class="slider-round"></span>
+          </label>
+
+        </div>
+
+      </div>
+
+      <div class="extension-card">
+
+        <img src="./assets/images/logo-grid-guides.svg" id="img-logo" alt="logo-grid-guides">
+
+        <div class="extension-text">
+
+          <h3>GridGuides </h3>
+
+          <p> Overlay customizable grids and alignment guides on any webpage. </p>
+
+        </div>
+
+        <div class="remove-button">
+
+          <button class="remove-btn">
+            Remove
+          </button>
+
+          <label class="switch">
+            <input type="checkbox" checked>
+            <span class="slider-round"></span>
+          </label>
+
+        </div>
+
+      </div>
+
+      <div class="extension-card">
+
+        <img src="./assets/images/logo-palette-picker.svg" id="img-logo" alt="logo-palette-picker">
+
+        <div class="extension-text">
+
+          <h3>Palette Picker </h3>
+
+          <p> Instantly extracts color palettes from any webpage.</p>
+
+        </div>
+
+        <div class="remove-button">
+
+          <button class="remove-btn">
+            Remove
+          </button>
+
+          <label class="switch">
+            <input type="checkbox" checked>
+            <span class="slider-round"></span>
+          </label>
+
+        </div>
+
+      </div>
+
+      <div class="extension-card">
+
+        <img src="./assets/images/logo-link-checker.svg" id="img-logo" alt="logo-link-checker">
+
+        <div class="extension-text">
+
+          <h3>LinkChecker </h3>
+
+          <p> Scans and highlights broken links on any page.</p>
+
+        </div>
+
+        <div class="remove-button">
+
+          <button class="remove-btn">
+            Remove
+          </button>
+
+          <label class="switch">
+            <input type="checkbox" checked>
+            <span class="slider-round"></span>
+          </label>
+
+        </div>
+
+      </div>
+
+      <div class="extension-card">
+
+        <img src="./assets/images/logo-dom-snapshot.svg" id="img-logo" alt="logo-dom-snapshot">
+
+        <div class="extension-text">
+
+          <h3>DOM</h3>
+
+          <p> Capture and export DOM structures quickly. </p>
+
+        </div>
+
+        <div class="remove-button">
+
+          <button class="remove-btn">
+            Remove
+          </button>
+
+          <label class="switch">
+            <input type="checkbox" checked>
+            <span class="slider-round"></span>
+          </label>
+
+        </div>
+
+      </div>
+
+      <div class="extension-card">
+
+        <img src="./assets/images/logo-console-plus.svg" id="img-logo" alt="logo-dom-snapshot">
+
+        <div class="extension-text">
+
+          <h3> ConsolePlus </h3>
+
+          <p>Enhanced developer console with advanced filtering and logging.</p>
+
+        </div>
+
+        <div class="remove-button">
+
+          <button class="remove-btn">
+            Remove
+          </button>
+
+          <label class="switch">
+            <input type="checkbox" checked>
+            <span class="slider-round"></span>
+          </label>
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="#">Sarah Ndom</a>.
+    </div>
+
+  </main>
+
+  <script src="./index.js"></script>
+
+</body>
+
+</html>
