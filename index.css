@@ -232,6 +232,10 @@ button:focus {
 
 @media (max-width: 768px) {
 
+    body {
+        padding: 1rem;
+    }
+
     .header-ext-btn {
         flex-direction: column;
         justify-content: center;
